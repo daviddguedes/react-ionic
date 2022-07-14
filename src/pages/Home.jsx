@@ -6,13 +6,13 @@ import {
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import { useRef, useState } from "react";
+// import { useRef, useState } from "react";
 
 const Home = () => {
-  const inputRef = useRef();
-  const [goto] = useState("");
+  // const inputRef = useRef();
+  // const [goto] = useState("");
 
-  const searchPlaces = () => {};
+  // const searchPlaces = () => {};
 
   return (
     <IonPage>
