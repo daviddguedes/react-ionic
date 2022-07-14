@@ -25,7 +25,8 @@ const Home = () => {
         <IonGrid>
           <iframe
             title="Test"
-            src="https://stage9-thbroker.stag.bolttechbroker.net/en"
+            src="google.com"
+            // src="https://stage9-thbroker.stag.bolttechbroker.net/en"
             width={500}
             height={500}
           ></iframe>
