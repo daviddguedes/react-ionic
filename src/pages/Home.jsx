@@ -1,26 +1,26 @@
 import {
-  IonButton,
-  IonCol,
+  // IonButton,
+  // IonCol,
   IonContent,
   IonGrid,
   IonHeader,
-  IonInput,
-  IonItem,
-  IonLabel,
+  // IonInput,
+  // IonItem,
+  // IonLabel,
   IonPage,
-  IonRow,
+  // IonRow,
   IonTitle,
   IonToolbar,
 } from "@ionic/react";
-import { useRef, useState } from "react";
+// import { useRef, useState } from "react";
 
 const Home = () => {
-  const inputRef = useRef();
-  const [goto,] = useState("");
+  // const inputRef = useRef();
+  // const [goto,] = useState("");
 
-  const searchPlaces = () => {
+  // const searchPlaces = () => {
 
-  };
+  // };
 
   return (
     <IonPage>
@@ -31,7 +31,13 @@ const Home = () => {
       </IonHeader>
       <IonContent>
         <IonGrid>
-          <IonRow class="ion-align-items-end">
+          <iframe
+            title="Teste"
+            src="https://stage9-thbroker.stag.bolttechbroker.net/en"
+            width={500}
+            height={500}
+          ></iframe>
+          {/* <IonRow class="ion-align-items-end">
             <IonCol>
               <IonItem lines="full">
                 <IonLabel position="floating">My Location</IonLabel>
@@ -53,7 +59,7 @@ const Home = () => {
                 Send
               </IonButton>
             </IonCol>
-          </IonRow>
+          </IonRow> */}
         </IonGrid>
       </IonContent>
     </IonPage>
